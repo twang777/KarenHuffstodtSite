@@ -110,11 +110,13 @@ for (let i = 0; i < rows.length; i++) {
     if (!str) return '';
     // Remove surrounding quotes
     str = str.replace(/^'|'$/g, '');
-    // Unescape SQL escapes
-    str = str.replace(/\\'/g, "'");
-    str = str.replace(/\\n/g, '\n');
-    str = str.replace(/\\r/g, '\r');
-    str = str.replace(/\\\\/g, '\\');
+    // Unescape SQL escapes (order matters!)
+    str = str.replace(/\\\\/g, '\\');  // Replace \\\\ with \\ first
+    str = str.replace(/\\"/g, '"');    // Replace \" with "
+    str = str.replace(/\\'/g, "'");    // Replace \' with '
+    str = str.replace(/\\n/g, '\n');   // Replace \n with newline
+    str = str.replace(/\\r/g, '\r');   // Replace \r with carriage return
+    str = str.replace(/\\t/g, '\t');   // Replace \t with tab
     return str;
   };
 

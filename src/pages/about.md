@@ -7,12 +7,12 @@ permalink: /about/
 menuOrder: 0
 ---
 
-<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\">
-<figure class=\"wp-block-image size-large\"><img src=\"/media/2020/03/80846487_807376973043666_2505835197824499712_o-678x1024.jpg\" alt=\"\" class=\"wp-image-45\"/></figure>
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped">
+<figure class="wp-block-image size-large"><img src="/media/2020/03/80846487_807376973043666_2505835197824499712_o-678x1024.jpg" alt="" class="wp-image-45"/></figure>
 
-<figure class=\"wp-block-image size-large\"><img src=\"/media/2021/02/Karen-A3-799x1024.jpg\" alt=\"\" class=\"wp-image-142\"/></figure>
+<figure class="wp-block-image size-large"><img src="/media/2021/02/Karen-A3-799x1024.jpg" alt="" class="wp-image-142"/></figure>
 
-<figure class=\"wp-block-image size-large\"><img src=\"/media/2020/03/81033794_802076173573746_3197080742114885632_n.jpg\" alt=\"\" class=\"wp-image-46\"/></figure>
+<figure class="wp-block-image size-large"><img src="/media/2020/03/81033794_802076173573746_3197080742114885632_n.jpg" alt="" class="wp-image-46"/></figure>
 </figure>
 
 <p>Karen Huffstodt has enjoyed a long and distinguished career in a diverse repertoire that has encompassed the leading soprano roles of Mozart, Verdi, Wagner, and Strauss.&nbsp;&nbsp; Her performances have consistently been characterized by great intensity, an extraordinary stage appearance, and a voice that perfectly embodies the heroines she portrays on the stage.&nbsp;</p>

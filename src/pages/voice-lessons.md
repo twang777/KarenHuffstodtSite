@@ -7,7 +7,7 @@ permalink: /voice-lessons/
 menuOrder: 0
 ---
 
-<figure class=\"wp-block-image size-large\"><img src=\"/media/2020/03/50183082_10218416988998677_3343108900034445312_o-1024x768.jpg\" alt=\"\" class=\"wp-image-36\"/></figure>
+<figure class="wp-block-image size-large"><img src="/media/2020/03/50183082_10218416988998677_3343108900034445312_o-1024x768.jpg" alt="" class="wp-image-36"/></figure>
 
 <p>I am committed to helping singers of every age and level to cultivate and then integrate all aspects of the vocal craft, nurturing that inexplicable spark that makes a performer, while instilling the necessary cognitive and pragmatic knowledge that forms a solid vocal technique and professional musician.&nbsp;&nbsp;However, I believe that the training and guidance of the aspiring professional singer must transcend the technical and theoretical, also preparing the singer to navigate the multi-faceted challenges of a professional career.&nbsp;</p>
 
@@ -15,7 +15,7 @@ menuOrder: 0
 
 <p><strong>Why Study Voice with Karen Huffstodt:</strong></p>
 
-<ol type=\"1\">
+<ol type="1">
 <li><strong>&nbsp;Masterful&nbsp;&nbsp;Expertise :&nbsp;&nbsp;</strong>Having graced the world’s most prestigious stages, Karen brings decades of hands-on experience to the studio.&nbsp;&nbsp;Utilizing her extensive vocal training in the Swedish-Italian and Italian Schools, her teaching approach melds time-honored traditions with contemporary insights, providing students with a comprehensive foundation for vocal mastery.&nbsp;&nbsp;</li>
 
 <li><strong>Individualized Guidance:</strong>&nbsp;&nbsp;Instruction is tailored to align with the specific aspirations and capabilities of each student.&nbsp;&nbsp;Whether you are a novice seeking to establish a strong vocal foundation or a seasoned performer aiming to refine your skills or prepare for an important engagement, Karen’s training is unique to every individual – always with the goal of maximizing your potential.</li>
@@ -29,6 +29,6 @@ menuOrder: 0
 
 <p>Whether your dream is to grace the world's most prestigious stages or to simply delve into the fascinating world of vocal technique, Karen Huffstodt's careful guidance offers a path to excellence. Embrace the art, technique, and passion of classical singing under the expert tutelage of a dedicated teacher. Contact us today to embark on your extraordinary journey with Karen, and unlock your true vocal potential.&nbsp;&nbsp;(Though Karen’s own vocal journey led her to an operatic career, she has also had extensive success and experience teaching other vocal genres, including musical theatre, pop, jazz, and gospel. For more work on performance practice, stage presence, and audition preparation, please check out her class and coachings under THE ACTING SINGER.)</p>
 
-<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\">
-<figure class=\"wp-block-image size-large\"><img src=\"/media/2023/09/Karen-and-David.tif\" alt=\"\" class=\"wp-image-200\"/></figure>
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped">
+<figure class="wp-block-image size-large"><img src="/media/2023/09/Karen-and-David.jpg" alt="" class="wp-image-200"/></figure>
 </figure>
