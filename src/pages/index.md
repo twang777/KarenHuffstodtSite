@@ -10,7 +10,7 @@ menuOrder: 0
 <div class="wp-block-group">
 <div class="wp-block-columns">
 <div class="wp-block-column" style="flex-basis:100%">
-<div class="wp-block-cover is-light" style="min-height:816px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-35" alt="" src="/media/2020/03/31344562_424559381325429_3350612356747440129_n.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+<div class="wp-block-cover is-light" style="min-height:816px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-35" alt="" src="/media/2026/new-artist-teacher-image.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 <p class="has-text-align-center has-large-font-size"></p>
 </div></div>
 </div>
