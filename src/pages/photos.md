@@ -7,4 +7,52 @@ permalink: /photos/
 menuOrder: 0
 ---
 
-n<figure class="wp-block-gallery has-nested-images columns-default is-cropped">n<figure class="wp-block-image size-large"><img src="/media/2020/03/80556681_806436513137712_8842701607872233472_o-746x1024.jpg" alt="" class="wp-image-41"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2020/03/81033794_802076173573746_3197080742114885632_n.jpg" alt="" class="wp-image-46"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2020/03/80846487_807376973043666_2505835197824499712_o-678x1024.jpg" alt="" class="wp-image-45"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2020/03/79986080_801237186990978_1459156645656395776_o-757x1024.jpg" alt="" class="wp-image-39"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2020/03/73241820_755002691614428_9013654646421454848_n.jpg" alt="" class="wp-image-38"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2020/03/80783764_798575303923833_1870497672322875392_o-721x1024.jpg" alt="" class="wp-image-44"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2020/03/80773612_808510202930343_127617484252512256_o-680x1024.jpg" alt="" class="wp-image-43"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2020/03/80663064_799578567156840_1686994773694480384_n.jpg" alt="" class="wp-image-42"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2020/03/31344562_424559381325429_3350612356747440129_n.jpg" alt="" class="wp-image-35"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2023/09/SalomeJ.jpg" alt="" class="wp-image-224"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2023/09/SalomeI.jpg" alt="" class="wp-image-223"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2023/09/Salome6.jpg" alt="" class="wp-image-214"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2023/09/Karen-Konstanze-Photo.jpg" alt="" class="wp-image-202"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2023/09/scan0003.jpg" alt="" class="wp-image-227"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2023/09/Kundry3.jpg" alt="" class="wp-image-208"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2023/09/GeorgiettaD.jpg" alt="" class="wp-image-197"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2023/09/GeorgiettaA.jpg" alt="" class="wp-image-194"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2021/02/Lady-Macbeth-AB-672x1024.jpg" alt="" class="wp-image-140"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2021/02/Salome-Paris-A.jpg" alt="" class="wp-image-137"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2021/02/Karen-Salome1-655x1024.jpg" alt="" class="wp-image-136"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2020/03/13938025_105504573230913_773835619501476650_o-1024x1024.jpg" alt="" class="wp-image-34"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2023/09/scan0001A.jpg" alt="" class="wp-image-226"/></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2023/09/2.7-683x1024.jpg" alt="" class="wp-image-263"/><figcaption class="wp-element-caption">Photo taken by Richard Termine</figcaption></figure>nnnn<figure class="wp-block-image size-large"><img src="/media/2023/09/Turandot-Pictures-alt-681x1024.png" alt="" class="wp-image-259"/></figure>n</figure>n
+<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped\">
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2020/03/80556681_806436513137712_8842701607872233472_o-746x1024.jpg\" alt=\"\" class=\"wp-image-41\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2020/03/81033794_802076173573746_3197080742114885632_n.jpg\" alt=\"\" class=\"wp-image-46\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2020/03/80846487_807376973043666_2505835197824499712_o-678x1024.jpg\" alt=\"\" class=\"wp-image-45\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2020/03/79986080_801237186990978_1459156645656395776_o-757x1024.jpg\" alt=\"\" class=\"wp-image-39\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2020/03/73241820_755002691614428_9013654646421454848_n.jpg\" alt=\"\" class=\"wp-image-38\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2020/03/80783764_798575303923833_1870497672322875392_o-721x1024.jpg\" alt=\"\" class=\"wp-image-44\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2020/03/80773612_808510202930343_127617484252512256_o-680x1024.jpg\" alt=\"\" class=\"wp-image-43\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2020/03/80663064_799578567156840_1686994773694480384_n.jpg\" alt=\"\" class=\"wp-image-42\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2020/03/31344562_424559381325429_3350612356747440129_n.jpg\" alt=\"\" class=\"wp-image-35\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2023/09/SalomeJ.tif\" alt=\"\" class=\"wp-image-224\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2023/09/SalomeI.tif\" alt=\"\" class=\"wp-image-223\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2023/09/Salome6.tif\" alt=\"\" class=\"wp-image-214\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2023/09/Karen-Konstanze-Photo.tif\" alt=\"\" class=\"wp-image-202\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2023/09/scan0003.tif\" alt=\"\" class=\"wp-image-227\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2023/09/Kundry3.tif\" alt=\"\" class=\"wp-image-208\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2023/09/GeorgiettaD.tif\" alt=\"\" class=\"wp-image-197\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2023/09/GeorgiettaA.tif\" alt=\"\" class=\"wp-image-194\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2021/02/Lady-Macbeth-AB-672x1024.jpg\" alt=\"\" class=\"wp-image-140\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2021/02/Salome-Paris-A.jpg\" alt=\"\" class=\"wp-image-137\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2021/02/Karen-Salome1-655x1024.jpg\" alt=\"\" class=\"wp-image-136\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2020/03/13938025_105504573230913_773835619501476650_o-1024x1024.jpg\" alt=\"\" class=\"wp-image-34\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2023/09/scan0001A.tif\" alt=\"\" class=\"wp-image-226\"/></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2023/09/2.7-683x1024.jpg\" alt=\"\" class=\"wp-image-263\"/><figcaption class=\"wp-element-caption\">Photo taken by Richard Termine</figcaption></figure>
+
+<figure class=\"wp-block-image size-large\"><img src=\"/media/2023/09/Turandot-Pictures-alt-681x1024.png\" alt=\"\" class=\"wp-image-259\"/></figure>
+</figure>

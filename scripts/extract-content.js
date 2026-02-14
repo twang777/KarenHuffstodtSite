@@ -63,23 +63,19 @@ for (let i = 0; i < rows.length; i++) {
   const values = [];
   let current = '';
   let inQuote = false;
-  let escapeNext = false;
 
   for (let j = 0; j < row.length; j++) {
     const char = row[j];
+    const nextChar = j < row.length - 1 ? row[j + 1] : null;
 
-    if (escapeNext) {
-      current += char;
-      escapeNext = false;
+    // Handle escape sequences - keep both backslash and next char
+    if (char === '\\' && nextChar !== null) {
+      current += char + nextChar;
+      j++; // Skip the next character since we already processed it
       continue;
     }
 
-    if (char === '\\') {
-      escapeNext = true;
-      continue;
-    }
-
-    if (char === "'" && !escapeNext) {
+    if (char === "'") {
       inQuote = !inQuote;
       current += char;
       continue;

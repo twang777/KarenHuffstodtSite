@@ -1,12 +1,14 @@
-/* CSS Variables - Twenty Seventeen aesthetic */
+/* CSS Variables - Dark Theme (Original WordPress Design) */
 :root {
-  --color-primary: #222;
-  --color-text: #333;
-  --color-accent: #767676;
-  --color-border: #eee;
+  --color-background: #1a1a1a;
+  --color-text: #ffffff;
+  --color-text-secondary: #cccccc;
+  --color-accent: #999999;
+  --color-border: #333333;
   --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --font-heading: "Libre Franklin", -apple-system, BlinkMacSystemFont, sans-serif;
   --max-width: 1000px;
+  --header-image: url('/media/2020/03/31344562_424559381325429_3350612356747440129_n.jpg');
 }
 
 /* Global Styles */
@@ -17,10 +19,27 @@
 body {
   font-family: var(--font-body);
   color: var(--color-text);
+  background-color: var(--color-background);
   line-height: 1.6;
   margin: 0;
   padding: 0;
   font-size: 16px;
+}
+
+/* Persistent Header Background Image */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  background-image: var(--header-image);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.3;
 }
 
 /* Layout Container */
@@ -30,36 +49,41 @@ main,
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
+  z-index: 1;
 }
 
 /* Header */
 .site-header {
   padding: 2rem 0 1rem;
   border-bottom: 2px solid var(--color-border);
+  background-color: rgba(26, 26, 26, 0.95);
 }
 
 .site-branding h1 {
   margin: 0 0 0.25rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: var(--font-heading);
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .site-branding a {
-  color: var(--color-primary);
+  color: var(--color-text);
   text-decoration: none;
 }
 
 .site-branding a:hover {
-  opacity: 0.8;
+  color: var(--color-text-secondary);
 }
 
 .site-description {
   color: var(--color-accent);
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   font-weight: 400;
 }
 
@@ -82,44 +106,53 @@ main,
   text-decoration: none;
   font-weight: 500;
   font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   transition: color 0.2s ease;
 }
 
 .main-navigation a:hover {
-  color: var(--color-primary);
+  color: var(--color-accent);
 }
 
 /* Page Content */
 .page {
   padding: 3rem 0;
+  background-color: rgba(26, 26, 26, 0.95);
+  min-height: calc(100vh - 300px);
 }
 
 .page h1 {
   font-size: 2.5rem;
   margin: 0 0 2rem;
-  color: var(--color-primary);
+  color: var(--color-text);
   font-family: var(--font-heading);
   font-weight: 700;
   line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .page-content {
   font-size: 1.05rem;
   line-height: 1.8;
+  color: var(--color-text-secondary);
 }
 
 .page-content h2 {
   font-size: 2rem;
   margin: 2.5rem 0 1rem;
-  color: var(--color-primary);
+  color: var(--color-text);
   font-family: var(--font-heading);
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .page-content h3 {
   font-size: 1.5rem;
   margin: 2rem 0 1rem;
-  color: var(--color-primary);
+  color: var(--color-text);
   font-family: var(--font-heading);
   font-weight: 600;
 }
@@ -127,7 +160,7 @@ main,
 .page-content h4 {
   font-size: 1.25rem;
   margin: 1.5rem 0 0.75rem;
-  color: var(--color-primary);
+  color: var(--color-text);
   font-family: var(--font-heading);
   font-weight: 600;
 }
@@ -137,12 +170,12 @@ main,
 }
 
 .page-content a {
-  color: #007acc;
+  color: #4a9eff;
   text-decoration: underline;
 }
 
 .page-content a:hover {
-  color: #005a99;
+  color: #6eb3ff;
 }
 
 .page-content ul,
@@ -164,7 +197,7 @@ img {
 
 .page-content img {
   margin: 2rem 0;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 figure {
@@ -221,10 +254,11 @@ figcaption {
   justify-content: center;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   padding: 3rem 2rem;
   margin: 2rem 0;
   color: white;
-  border-radius: 4px;
+  border-radius: 2px;
   overflow: hidden;
 }
 
@@ -235,7 +269,7 @@ figcaption {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 
@@ -247,7 +281,7 @@ figcaption {
 .wp-block-cover h2,
 .wp-block-cover p {
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 /* Gutenberg Block: Group */
@@ -271,6 +305,7 @@ hr,
   text-align: center;
   color: var(--color-accent);
   font-size: 0.9rem;
+  background-color: rgba(26, 26, 26, 0.95);
 }
 
 .site-footer p {
@@ -283,18 +318,32 @@ hr,
 }
 
 .site-footer a:hover {
-  color: var(--color-primary);
+  color: var(--color-text);
   text-decoration: underline;
+}
+
+/* Homepage Hero Section */
+body.home .page {
+  background-color: transparent;
+  padding-top: 2rem;
+}
+
+body.home .page h1 {
+  margin-bottom: 3rem;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  body::before {
+    height: 300px;
+  }
+
   .site-header {
     padding: 1.5rem 0 1rem;
   }
 
   .site-branding h1 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 
   .main-navigation {
@@ -338,6 +387,7 @@ hr,
   .wp-block-cover {
     min-height: 300px;
     padding: 2rem 1rem;
+    background-attachment: scroll;
   }
 }
 
@@ -360,6 +410,10 @@ hr,
 
 /* Print Styles */
 @media print {
+  body::before {
+    display: none;
+  }
+
   .site-header,
   .main-navigation,
   .site-footer {
@@ -368,6 +422,8 @@ hr,
 
   .page {
     padding: 0;
+    background: white;
+    color: black;
   }
 
   a {
