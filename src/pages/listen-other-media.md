@@ -11,16 +11,18 @@ menuOrder: 0
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Dns1kCZ7I1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%;"></iframe>
 </div>
 
+<!--
+  PRIVATE VIDEOS REMOVED (contain Karen Huffstodt performances, set to private by uploaders):
+  - https://youtu.be/94C8vmswLLM
+  - https://youtu.be/J__8Nb7imZI
+  - https://youtu.be/7GV8_vKa-p8
+  - https://youtu.be/gyrv6hQYl1w
+  - https://youtu.be/UsImihiXt7U
+  - https://youtu.be/A7sHEJfyrdM
+-->
+
 <div style="margin: 2rem 0;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/UvLPmSnTb4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%;"></iframe>
-</div>
-
-<div style="margin: 2rem 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/94C8vmswLLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%;"></iframe>
-</div>
-
-<div style="margin: 2rem 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/J__8Nb7imZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%;"></iframe>
 </div>
 
 <div style="margin: 2rem 0;">
@@ -28,23 +30,7 @@ menuOrder: 0
 </div>
 
 <div style="margin: 2rem 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/7GV8_vKa-p8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%;"></iframe>
-</div>
-
-<div style="margin: 2rem 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/gyrv6hQYl1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%;"></iframe>
-</div>
-
-<div style="margin: 2rem 0;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Q5948jqBIXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%;"></iframe>
-</div>
-
-<div style="margin: 2rem 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/UsImihiXt7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%;"></iframe>
-</div>
-
-<div style="margin: 2rem 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/A7sHEJfyrdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%;"></iframe>
 </div>
 
 <div style="margin: 2rem 0;">

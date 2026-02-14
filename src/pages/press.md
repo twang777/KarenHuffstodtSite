@@ -7,6 +7,10 @@ permalink: /press/
 menuOrder: 0
 ---
 
+<p><strong>Professional Profiles:</strong></p>
+<p><a href="https://www.operabase.com/karen-huffstodt-a9308/en" target="_blank">Karen Huffstodt on Operabase</a></p>
+<p><a href="https://www.santafeopera.org/bio/karen-huffstodt/" target="_blank">Karen Huffstodt - Santa Fe Opera Biography</a></p>
+
 <h2 class="wp-block-heading">Elektra</h2>
 
 <figure class="wp-block-gallery has-nested-images columns-default is-cropped">
