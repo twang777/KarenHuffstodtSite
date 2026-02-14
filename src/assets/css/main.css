@@ -121,7 +121,11 @@ body:not(.page-home)::before {
 }
 
 /* Layout Container */
-main,
+main {
+  position: relative;
+  z-index: 1;
+}
+
 .site-footer {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -132,15 +136,44 @@ main,
 
 /* Homepage: Let the hero image breathe, content starts below */
 .page-home main {
-  margin-top: 40vh;
+  margin-top: 60vh;
+  padding: 0;
 }
 
-/* Page Content - with solid background so text is readable over fixed image */
-.page {
-  padding: 3rem 0;
-  background-color: rgba(26, 26, 26, 0.97);
-  min-height: calc(100vh - 300px);
-  border-radius: 4px 4px 0 0;
+/* Homepage: Full-width content with gradient background */
+.page-home .page {
+  width: 100%;
+  max-width: 100%;
+  padding: 4rem 0;
+  background: linear-gradient(to bottom,
+    rgba(26, 26, 26, 0) 0%,
+    rgba(26, 26, 26, 0.7) 20%,
+    rgba(26, 26, 26, 0.95) 40%,
+    rgba(26, 26, 26, 1) 60%,
+    rgba(26, 26, 26, 1) 100%);
+  min-height: 100vh;
+}
+
+.page-home .page h1,
+.page-home .page-content {
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Non-homepage: No background box, just content */
+body:not(.page-home) main {
+  margin-top: 0;
+  padding-top: 320px;
+}
+
+body:not(.page-home) .page {
+  background: transparent;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 20px;
 }
 
 .page h1 {
@@ -282,9 +315,10 @@ figcaption {
   overflow: hidden;
 }
 
-/* Hide the cover block on homepage since we're using the fixed header image */
+/* On homepage, make cover block part of the gradient flow */
 .page-home .wp-block-cover {
-  display: none;
+  margin: 2rem 0;
+  min-height: 60vh;
 }
 
 .wp-block-cover::before {
@@ -330,7 +364,7 @@ hr,
   text-align: center;
   color: var(--color-accent);
   font-size: 0.9rem;
-  background-color: rgba(26, 26, 26, 0.97);
+  background-color: var(--color-background);
 }
 
 .site-footer p {

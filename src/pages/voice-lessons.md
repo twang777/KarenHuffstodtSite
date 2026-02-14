@@ -7,8 +7,6 @@ permalink: /voice-lessons/
 menuOrder: 0
 ---
 
-<figure class="wp-block-image size-large"><img src="/media/2020/03/50183082_10218416988998677_3343108900034445312_o-1024x768.jpg" alt="" class="wp-image-36"/></figure>
-
 <p>I am committed to helping singers of every age and level to cultivate and then integrate all aspects of the vocal craft, nurturing that inexplicable spark that makes a performer, while instilling the necessary cognitive and pragmatic knowledge that forms a solid vocal technique and professional musician.&nbsp;&nbsp;However, I believe that the training and guidance of the aspiring professional singer must transcend the technical and theoretical, also preparing the singer to navigate the multi-faceted challenges of a professional career.&nbsp;</p>
 
 <p><em>-Karen</em></p>
