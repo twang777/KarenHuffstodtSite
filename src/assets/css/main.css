@@ -8,7 +8,7 @@
   --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --font-heading: "Libre Franklin", -apple-system, BlinkMacSystemFont, sans-serif;
   --max-width: 1000px;
-  --header-image: url('/media/2020/03/31344562_424559381325429_3350612356747440129_n.jpg');
+  --header-image: url('/media/2020/03/cropped-80512157_805582369889793_5659805892900552704_o-1.jpg');
 }
 
 /* Global Styles */
@@ -24,45 +24,47 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  position: relative;
 }
 
-/* Persistent Header Background Image */
+/* Fixed Header Background Image */
 body::before {
   content: '';
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 400px;
+  bottom: 0;
   background-image: var(--header-image);
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   background-repeat: no-repeat;
   z-index: -1;
-  opacity: 0.3;
 }
 
-/* Layout Container */
-.site-header,
-main,
-.site-footer {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 0 20px;
-  position: relative;
-  z-index: 1;
+/* On non-homepage pages, show only a banner slice */
+body:not(.page-home)::before {
+  height: 300px;
+  background-position: center 40%;
 }
 
-/* Header */
+/* Site Header - overlaid on the fixed background */
 .site-header {
+  position: relative;
   padding: 2rem 0 1rem;
-  border-bottom: 2px solid var(--color-border);
-  background-color: rgba(26, 26, 26, 0.95);
+  background: transparent;
+  border-bottom: none;
+  z-index: 10;
+}
+
+.site-branding {
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
 }
 
 .site-branding h1 {
   margin: 0 0 0.25rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-family: var(--font-heading);
   font-weight: 700;
   text-transform: uppercase;
@@ -79,7 +81,7 @@ main,
 }
 
 .site-description {
-  color: var(--color-accent);
+  color: var(--color-text);
   margin: 0;
   font-size: 0.85rem;
   text-transform: uppercase;
@@ -90,11 +92,13 @@ main,
 /* Navigation */
 .main-navigation {
   margin-top: 1.5rem;
+  text-align: center;
 }
 
 .main-navigation ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
   list-style: none;
   padding: 0;
@@ -109,17 +113,34 @@ main,
   text-transform: uppercase;
   letter-spacing: 0.05em;
   transition: color 0.2s ease;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
 
 .main-navigation a:hover {
   color: var(--color-accent);
 }
 
-/* Page Content */
+/* Layout Container */
+main,
+.site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Homepage: Let the hero image breathe, content starts below */
+.page-home main {
+  margin-top: 40vh;
+}
+
+/* Page Content - with solid background so text is readable over fixed image */
 .page {
   padding: 3rem 0;
-  background-color: rgba(26, 26, 26, 0.95);
+  background-color: rgba(26, 26, 26, 0.97);
   min-height: calc(100vh - 300px);
+  border-radius: 4px 4px 0 0;
 }
 
 .page h1 {
@@ -245,7 +266,7 @@ figcaption {
   min-width: 0;
 }
 
-/* Gutenberg Block: Cover (Hero Sections) */
+/* Gutenberg Block: Cover (Hero Sections on Homepage) */
 .wp-block-cover {
   position: relative;
   min-height: 430px;
@@ -254,12 +275,16 @@ figcaption {
   justify-content: center;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   padding: 3rem 2rem;
   margin: 2rem 0;
   color: white;
   border-radius: 2px;
   overflow: hidden;
+}
+
+/* Hide the cover block on homepage since we're using the fixed header image */
+.page-home .wp-block-cover {
+  display: none;
 }
 
 .wp-block-cover::before {
@@ -305,7 +330,7 @@ hr,
   text-align: center;
   color: var(--color-accent);
   font-size: 0.9rem;
-  background-color: rgba(26, 26, 26, 0.95);
+  background-color: rgba(26, 26, 26, 0.97);
 }
 
 .site-footer p {
@@ -322,32 +347,22 @@ hr,
   text-decoration: underline;
 }
 
-/* Homepage Hero Section */
-body.home .page {
-  background-color: transparent;
-  padding-top: 2rem;
-}
-
-body.home .page h1 {
-  margin-bottom: 3rem;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   body::before {
-    height: 300px;
+    background-position: center center;
   }
 
-  .site-header {
-    padding: 1.5rem 0 1rem;
+  body:not(.page-home)::before {
+    height: 200px;
+  }
+
+  .page-home main {
+    margin-top: 50vh;
   }
 
   .site-branding h1 {
-    font-size: 1.75rem;
-  }
-
-  .main-navigation {
-    margin-top: 1rem;
+    font-size: 2rem;
   }
 
   .main-navigation ul {
@@ -387,16 +402,18 @@ body.home .page h1 {
   .wp-block-cover {
     min-height: 300px;
     padding: 2rem 1rem;
-    background-attachment: scroll;
   }
 }
 
 @media (max-width: 480px) {
-  .site-header,
   main,
   .site-footer {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .site-branding h1 {
+    font-size: 1.75rem;
   }
 
   .page h1 {
