@@ -1,0 +1,38 @@
+[
+  {
+    "title": "About",
+    "url": "/about/"
+  },
+  {
+    "title": "Artist Teacher",
+    "url": "/"
+  },
+  {
+    "title": "Voice Lessons",
+    "url": "/voice-lessons/"
+  },
+  {
+    "title": "The Acting Singer",
+    "url": "/master-class-karen-huffstodt/"
+  },
+  {
+    "title": "School Profiles",
+    "url": "/school-profiles/"
+  },
+  {
+    "title": "Photos",
+    "url": "/photos/"
+  },
+  {
+    "title": "Press",
+    "url": "/press/"
+  },
+  {
+    "title": "Media",
+    "url": "/listen-other-media/"
+  },
+  {
+    "title": "Contact",
+    "url": "/contact/"
+  }
+]

@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "src/media/uploads"
+public_folder: "/media/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "src/pages"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false, hint: "URL-friendly version of the title (e.g., about-us). Leave blank to auto-generate." }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+      - { label: "Menu Order", name: "menuOrder", widget: "number", default: 0, required: false, hint: "Order in navigation menu (lower numbers appear first)" }
+      - { label: "Description", name: "description", widget: "text", required: false, hint: "Page description for SEO" }
+      - { label: "Body", name: "body", widget: "markdown" }

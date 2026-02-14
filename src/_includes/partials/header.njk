@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="site-branding">
+    <h1><a href="/">Karen Huffstodt</a></h1>
+    <p class="site-description">artist teacher</p>
+  </div>
+  <nav class="main-navigation">
+    <ul>
+      {% for item in navigation %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>

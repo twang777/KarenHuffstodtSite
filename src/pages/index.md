@@ -1,0 +1,10 @@
+---
+title: Artist Teacher
+slug: index
+date: '2020-03-02'
+layout: layouts/page
+permalink: /
+menuOrder: 0
+---
+
+n<div class="wp-block-group">n<div class="wp-block-columns">n<div class="wp-block-column" style="flex-basis:100%">n<div class="wp-block-cover is-light" style="min-height:816px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-35" alt="" src="/media/2020/03/31344562_424559381325429_3350612356747440129_n.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">n<p class="has-text-align-center has-large-font-size"></p>n</div></div>n</div>n</div>n</div>nnnn<p>Karen Huffstodt, soprano and teacher extraordinaire, has enjoyed a long and distinguished career in a diverse repertoire that has encompassed the leading soprano roles of Mozart, Verdi, Wagner, and Strauss.&nbsp;&nbsp; Her performances have consistently been characterized by great intensity, an extraordinary stage appearance, and a voice that perfectly embodies the dramatic heroines she portrays.</p>nnnn<p>She has graced the stages of all the leading opera houses of the world, including the Metropolitan Opera, La Scala, the Vienna Staatsoper, Opéra National de Paris (Bastille), the Salzburg Festival, and the Royal Opera House, Covent Garden.</p>nnnn<p>Over the past decade, she has dedicated herself to teaching and mentoring developing artists who share her passion for bringing their musical characterizations to life.&nbsp;&nbsp;In addition to teaching voice, it has long been her mission to help the aspiring singer transition from “studio to stage” and to create that illusive&nbsp;<em>professional presence</em>&nbsp;that will allow their most powerful and authentic selves shine through.&nbsp;&nbsp;Her masterclasses and private coachings explore this “missing link”, which can help the developing artist create the&nbsp;<em>credibility</em>,&nbsp;<em>panache</em>, and&nbsp;<em>professional presence</em>&nbsp;to help them be chosen for that Young Artist program, win the competition, and ultimately, be “hired”.  </p>n
