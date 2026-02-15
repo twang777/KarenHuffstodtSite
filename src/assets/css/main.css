@@ -42,10 +42,17 @@ body::before {
   z-index: -1;
 }
 
-/* On non-homepage pages, show only a banner slice */
+/* On non-homepage pages, show only a banner slice with dark overlay */
 body:not(.page-home)::before {
   height: 300px;
   background-position: center 15%;
+  /* Add dark overlay for better text readability */
+  background-image:
+    linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    var(--header-image);
 }
 
 /* Site Header - overlaid on the fixed background */
