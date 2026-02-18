@@ -17,7 +17,7 @@ menuOrder: 0
 </div>
 </div>
 
-<p>Karen Huffstodt, soprano and teacher extraordinaire, has enjoyed a long and distinguished career in a diverse repertoire that has encompassed the leading soprano roles of Mozart, Verdi, Wagner, and Strauss.&nbsp;&nbsp; Her performances have consistently been characterized by great intensity, an extraordinary stage appearance, and a voice that perfectly embodies the dramatic heroines she portrays.</p>
+<p>Karen Huffstodt, soprano and vocal pedagogue, has enjoyed a long and distinguished career in a diverse repertoire that has encompassed the leading soprano roles of Mozart, Verdi, Wagner, and Strauss.&nbsp;&nbsp; Her performances have consistently been characterized by great intensity, an extraordinary stage appearance, and a voice that perfectly embodies the dramatic heroines she portrays.</p>
 
 <p>She has graced the stages of all the leading opera houses of the world, including the Metropolitan Opera, La Scala, the Vienna Staatsoper, Opéra National de Paris (Bastille), the Salzburg Festival, and the Royal Opera House, Covent Garden.</p>
 

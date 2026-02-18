@@ -8,7 +8,7 @@
   --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --font-heading: "Libre Franklin", -apple-system, BlinkMacSystemFont, sans-serif;
   --max-width: 1000px;
-  --header-image: url('/media/2026/new-cover-image.jpg');
+  --header-image: url('/media/2020/03/cropped-80512157_805582369889793_5659805892900552704_o.jpg');
 }
 
 /* Global Styles */
@@ -44,8 +44,9 @@ body::before {
 
 /* On non-homepage pages, show only a banner slice with dark overlay */
 body:not(.page-home)::before {
+  position: absolute;
   height: 300px;
-  background-position: center 15%;
+  background-position: center 35%;
   /* Add dark overlay for better text readability */
   background-image:
     linear-gradient(to bottom,

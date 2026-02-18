@@ -37,6 +37,14 @@ menuOrder: 0
   <iframe width="560" height="315" src="https://www.youtube.com/embed/gh0eNwtglRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%;"></iframe>
 </div>
 
+<div style="margin: 2rem 0;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/li7hMUbddJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%;"></iframe>
+</div>
+
+<div style="margin: 2rem 0;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PuFgiWk1Lkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%;"></iframe>
+</div>
+
 <h2 class="wp-block-heading">Other videos:</h2>
 
 <p>Salome: <a href="https://www.youtube.com/watch?v=qN_qWi4z6v0" data-type="link" data-id="https://www.youtube.com/watch?v=qN_qWi4z6v0">Part 1</a> <a href="https://www.youtube.com/watch?v=OF_IkNFY6u8" data-type="link" data-id="https://www.youtube.com/watch?v=OF_IkNFY6u8">Part 2</a> <a href="https://www.youtube.com/watch?v=Cl3qKwjVkqg" data-type="link" data-id="https://www.youtube.com/watch?v=Cl3qKwjVkqg">Part 3</a> <a href="https://www.youtube.com/watch?v=7TwfRbrXXuw" data-type="link" data-id="https://www.youtube.com/watch?v=7TwfRbrXXuw">Part 4</a></p>
